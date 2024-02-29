@@ -40,4 +40,8 @@ links:
       --header 'Authorization: Bearer <access_token>' \
       --header 'Content-Type: application/json'
    ```
-
+curl --request GET \
+      --url https://api.devopness.com/users/<id>/activity \
+      --header 'Accept: application/json' \
+      --header 'Authorization: Bearer <access_token>' \
+      --header 'Content-Type: application/json'
